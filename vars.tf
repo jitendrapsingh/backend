@@ -10,7 +10,7 @@ variable "PATH_TO_PUBLIC_KEY" {
 }
 
 variable "AWS_AMI" {
-  type = "map"
+  #type = "map"
   default = {
    #eu-west-1 = "ami-028f419d2bf90fe5d"
    #eu-west-1 = "ami-0a7c31280fbd23a86"
