@@ -13,7 +13,7 @@ variable "AWS_AMI" {
   type = "map"
   default = {
    "eu-west-1" = "ami-028f419d2bf90fe5d"
-   "eu-west-1" = "ami-0a7c31280fbd23a86"
-   "eu-west-1" = "ami-051cbea0e7660063d"
+   #"eu-west-1" = "ami-0a7c31280fbd23a86"
+   #"eu-west-1" = "ami-051cbea0e7660063d"
   }
 }
