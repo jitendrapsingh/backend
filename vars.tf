@@ -9,6 +9,7 @@ variable "PATH_TO_PUBLIC_KEY" {
   default = "mykey.pub"
 }
 
+variable "instance_type" { }
 variable "AWS_AMI" {
  # default = "ami-0a7c31280fbd23a86"
  # type = "map"
