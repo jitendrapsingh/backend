@@ -9,7 +9,7 @@ variable "PATH_TO_PUBLIC_KEY" {
   default = "mykey.pub"
 }
 
-variable "AMIS" {
+variable "AWS_AMI" {
   #type = "map"
   default = {
    #us-east-1 = "ami-13be557e"
