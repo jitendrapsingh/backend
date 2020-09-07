@@ -1,5 +1,5 @@
 resource "aws_instance" "example" {
-  ami = var.AWS_AMI[var.AWS_REGION]
+  ami = var.AWS_AMI
   instance_type = "t2.micro"
   provisioner "local-exec" {
     command = "echo ${aws_instance.example.private_ip} >> private_ips.txt"
