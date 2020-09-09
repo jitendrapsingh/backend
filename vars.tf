@@ -8,10 +8,10 @@ variable "PATH_TO_PRIVATE_KEY" {
 variable "PATH_TO_PUBLIC_KEY" {
   default = "mykey.pub"
 }
-
+variable "sub_type" {}
 variable "instance_type" { }
 variable "AWS_AMI" { }
-variable "sub_type" { }
+#variable "sub_type" { }
  # default = "ami-0a7c31280fbd23a86"
  # type = "map"
  # default = {
