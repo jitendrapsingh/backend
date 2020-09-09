@@ -10,7 +10,8 @@ variable "PATH_TO_PUBLIC_KEY" {
 }
 
 variable "instance_type" { }
-variable "AWS_AMI" {
+variable "AWS_AMI" {}
+variable "sub_type"
  # default = "ami-0a7c31280fbd23a86"
  # type = "map"
  # default = {
@@ -18,4 +19,3 @@ variable "AWS_AMI" {
    #"eu-west-1" = "ami-0a7c31280fbd23a86"
    #"eu-west-1" = "ami-051cbea0e7660063d"
  # }
-}
